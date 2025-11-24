@@ -59,13 +59,7 @@ export default function PomodoroTimer() {
   return (
     <div className="min-h-screen bg-neutral-100 flex items-center justify-center p-8">
       <div className="w-full max-w-4xl">
-        
-        {/* Header */}
-        <div className="text-center mb-12">
-          <h1 className="text-5xl font-light text-neutral-800 tracking-wide mb-4" style={{ fontFamily: 'serif' }}>
-            Remember why you started.
-          </h1>
-        </div>
+  
 
         {/* Main Timer Card */}
         <div className="bg-white rounded-3xl shadow-lg p-12 relative overflow-hidden">
@@ -161,4 +155,5 @@ export default function PomodoroTimer() {
       </div>
     </div>
   );
+
 }
